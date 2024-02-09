@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section>
+    <section className="md:px-20 w-full">
       <ThemeProvider>
           <Navbar />
           <Hero />

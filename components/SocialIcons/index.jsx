@@ -21,9 +21,9 @@ const icons = [{
 
 const SocialIcons = () => {
   return (
-    <div className='flex gap-5'>
+    <div className='flex gap-5 md:ml-1'>
        {icons.map((icon, index) => (
-           <Link href={icon.link} target={icon.link.match(/^https?:\/\//) ? "_blank" : "_self"} key={index}>
+           <Link href={icon.link} target="_blank" key={index}>
                <icon.Icon className={cn(
                  
                  'size-6 hover:scale-110 transition',

@@ -10,7 +10,26 @@
 
 @layer base {
     body{
-        @apply dark:bg-neutral-900 bg-slate-300 transition-all font-montserrat
+        @apply  dark:bg-green-900/5 bg-slate-600 transition-all font-montserrat
+    }
+
+    ::-webkit-scrollbar {
+        @apply size-[10px]
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;
+        @apply bg-zinc-700
+
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        @apply bg-zinc-500
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-green-50/50
     }
 }
 
