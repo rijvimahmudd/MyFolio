@@ -32,11 +32,11 @@ const Announcement = () => {
 
     return (
         <div className={cn(
-            "bg-teal-500/70 text-neutral-50 px-4 py-1 text-[0.6rem] md:py-2 md:text-[.8rem] md:px-8 text-center relative transition",
+            "bg-teal-500/70 text-neutral-50 px-4 py-2 text-[0.6rem] md:py-2 md:text-[.8rem] md:px-8 text-start md:text-center relative transition font-bold",
             isClosed && "hidden"
         )}>
             <p>This website is under development. Some features may not work properly.</p>
-            <div className='absolute top-1/2 -translate-y-1/2 right-4' onClick={handleClose}>
+            <div className='absolute top-1/2 -translate-y-1/2 right-4 cursor-pointer' onClick={handleClose}>
                 <Cross1Icon className='w-4 h-4 inline'/>
             </div>
         </div>

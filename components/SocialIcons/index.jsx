@@ -21,7 +21,7 @@ const icons = [{
 
 const SocialIcons = () => {
   return (
-    <div className='flex gap-5 md:ml-1'>
+    <div className='flex gap-5 ml-1'>
        {icons.map((icon, index) => (
            <Link href={icon.link} target="_blank" key={index}>
                <icon.Icon className={cn(
