@@ -14,9 +14,8 @@ const Loader = ({isLoading, loading}) => {
   return (
     <div>
       {loading && (
-        <div className='text-white h-svh w-svw absolute bg-green-500/5 z-[999999999]'>
-          <p>This website is under development</p>
-          <p>Some features may not work properly.</p>
+        <div className='text-white h-svh w-svw absolute bg-green-500/5 z-[999999999] text-4xl grid place-content-center'>
+          Loading.....
         </div>
       )}
     </div>
