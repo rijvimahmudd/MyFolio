@@ -20,7 +20,6 @@
     ::-webkit-scrollbar-track {
         border-radius: 10px;
         @apply bg-zinc-700
-
     }
 
     ::-webkit-scrollbar-thumb {
@@ -35,8 +34,5 @@
 
 @layer components {
 
-    .font-body {
-        font-family: 'Protest Riot', sans-serif;
-    }
 
 }

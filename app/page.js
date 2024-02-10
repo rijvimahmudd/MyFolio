@@ -1,18 +1,23 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar/Navbar";
-import { Button } from "@/components/ui/button";
+import Services from "@/components/Services";
+import Announcement from "@/components/ui/announcement";
 import ThemeProvider from "@/context/ThemeProvider";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
+    <>
+      <Announcement />  
     <section className="md:px-20 w-full">
       <ThemeProvider>
-          <Navbar />
-          <Hero />
-          <Footer />
+        <Navbar />
+        <Hero />
+        <Services />
+        <Footer />
       </ThemeProvider>
     </section>
+    </>
   );
 }
