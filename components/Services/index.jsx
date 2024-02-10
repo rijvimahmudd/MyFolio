@@ -2,13 +2,12 @@ import React from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card'
 import { LuFocus } from "react-icons/lu";
 import { cn } from '@/lib/utils';
+import SectionTitle from '../ui/sectionTitle';
 
 const Services = () => {
   return (
     <div className='py-20 px-12 md:px-24 flex flex-col space-y-24 items-center justify-center'>
-        <div className='text-4xl md:text-5xl font-bold sm:font-extrabold uppercase tracking-wide bg-gradient-to-r from-green-500  to-yellow-300 bg-clip-text text-transparent text-center w-full'>
-            <h1 className='underline decoration-green-500/10 underline-offset-8'>What i do?</h1>
-        </div>
+       <SectionTitle backgroundText='Services'>What i do?</SectionTitle>
         <div className='w-full'>
         <div className='grid grid-cols-auto-fit-300 justify-between gap-6'>
             {Array(3).fill(0).map((_, i) => (

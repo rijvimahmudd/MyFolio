@@ -33,10 +33,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${monts.className} `}>
-        {loading && isHome ? (<Loader isLoading={(isLoading) => setLoading(isLoading)} loading={loading}/> ) : (
-        <>
+        {/* {loading && isHome ? (<Loader isLoading={(isLoading) => setLoading(isLoading)} loading={loading}/> ) : (
+        <> */}
           {children}
-        </>) }
+        {/* </>) } */}
       </body>
     </html>
   );
