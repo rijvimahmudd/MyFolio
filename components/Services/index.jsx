@@ -12,7 +12,7 @@ const Services = () => {
         <div className='grid grid-cols-auto-fit-300 justify-between gap-6'>
             {Array(3).fill(0).map((_, i) => (
                 <Card key={i} className={cn(
-                    "bg-green-950/5 shadow-none  flex flex-row-reverse relative py-12 md:py-16 px-8 md:px-4 items-center border-2 border-yellow-50/5 justify-between h-40 md:h-48 backdrop-blur-lg w-full",
+                    "bg-green-950/5 shadow-none  flex flex-row-reverse relative py-12 md:py-16 px-8 md:px-4 items-center border border-yellow-50/5 justify-between h-40 md:h-48 backdrop-blur-lg w-full",
                     // i === 2 ? "grow-0": "grow"
                 )}>
                 <CardHeader className='text-2xl md:text-xl text-end p-0 text-green-100 basis-2/3 md:basis-9/12 space-y-3'>

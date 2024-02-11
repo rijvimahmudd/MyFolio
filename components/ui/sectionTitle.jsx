@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionTitle = ({backgroundText, children}) => {
   return (
-<div className='relative w-full'>
+<div className='relative w-fit md:w-full'>
     <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 hidden md:block'>
         <h1 className='text-9xl text-zinc-200 dark:text-neutral-800/50 tracking-tight sm:tracking-wide font-bold uppercase'>{backgroundText}</h1>
     </div>

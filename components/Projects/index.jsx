@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
         <div className='grid md:grid-cols-2 w-full gap-8 md:px-12'>
             {Array(3).fill(0).map((_, i) => (
-                <Card key={i} className='bg-green-950/5 shadow-none border-2 border-yellow-50/5 flex flex-col-reverse gap-0 cursor-pointer group hover:-translate-y-1 transition md:p-2 pb-2'>
+                <Card key={i} className='bg-green-950/5 shadow-none border border-yellow-50/5 flex flex-col-reverse gap-0 cursor-pointer group hover:-translate-y-1 transition md:p-2 pb-2'>
                 <CardHeader className="pt-3">
                     <CardTitle>Eat Cake</CardTitle>
                     <CardDescription>Different categories handmade cake is available for sale. Registered users will get dashboard access where manage their orders and give review</CardDescription>
